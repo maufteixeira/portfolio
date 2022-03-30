@@ -1,0 +1,129 @@
+.skills {
+    background-color: var(--gelo);
+    color: var(--cinza-escuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+.skills__titulo {
+    font-size: 1.375rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.skills__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.skills__item {
+    align-items: flex-start;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 7.375rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 2%;
+    padding-left: 1rem;
+    width: 8.75rem;
+}
+
+.skills__area{
+    display: flex;
+    width: 22.5rem;
+}
+
+.svg {
+    fill: var(--azul-medio);
+    height: 2rem;
+    width: 2rem;
+}
+
+.svg:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) {
+    .skills {
+        width: 48rem;
+        margin-right: 2rem;
+    }
+    
+    .skills__titulo {
+        font-size: 1.375rem;
+        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    .skills__area {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .skills__lista {
+        align-items: flex-start;
+        justify-content: center;
+        width: 768px;
+    }
+    
+    .skills__item {
+        align-items: flex-start;
+        align-self: flex-start;
+        height: 7.375rem;
+        justify-content:flex-end;
+        line-height: 3rem;
+        margin: 0.5rem;
+        width: 13rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills {
+        width: 100%;
+    }
+    
+    .skills__titulo {
+        font-size: 2rem;
+        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    .skills__area {
+        width: 95%;
+    }
+
+    .skills__lista {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 6rem;
+        width: 90%;
+    }
+    
+    .skills__item {
+        align-items: flex-start;
+        align-self: flex-start;
+        height: 10rem;
+        justify-content:flex-end;
+        line-height: 3rem;
+        margin: 0.3rem;
+        width: 11rem;
+    }
+}

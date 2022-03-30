@@ -1,0 +1,232 @@
+.formulario {
+    background-color: var(--azul-claro);
+    color: var(--cinza-escuro);
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem ;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.formulario__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.formulario__texto {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.formulario__nome, .formulario__email,
+.formulario__assunto, .formulario__mensagem {
+    border: none;
+    border-bottom: 1px solid var(--cinza-claro);
+    border-radius: 4px;
+    font-size: 1rem;
+    height: 3.5rem;
+    margin-bottom: 2rem;
+    min-width: 18.5rem;
+    outline: none;
+    padding-left: 0.5rem;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance:none;
+}
+
+.formulario__mensagem {
+    height: 8.3rem;
+    padding-top: 2rem;
+}
+
+.formulario__nome:focus, .formulario__email:focus,
+.formulario__assunto:focus, .formulario__mensagem:focus {
+    border: 1px solid var(--azul-medio);
+    border-bottom: 2px solid var(--azul-medio);
+    font-size: 1rem;
+    font-weight: 400
+}
+
+.formulario__nome::placeholder,
+.formulario__email::placeholder,
+.formulario__assunto::placeholder,
+.formulario__mensagem::placeholder {
+    color: transparent;
+}
+
+.formulario__nome:focus:required:invalid,
+.formulario__email:focus:required:invalid {
+    border-bottom: 2px solid var(--vermelho);
+    color: var(--vermelho);
+}
+
+.formulario__nome:required:invalid + label:before,
+.formulario__email:required:invalid + label:before{
+    content: '*';
+}
+
+.formulario__nome:focus + label,
+.formulario__email:focus + label,
+.formulario__assunto:focus + label,
+.formulario__mensagem:focus + label {
+    color: var(--azul-medio);
+    font-size: 0.75rem;
+}
+
+.formulario__nome:focus + label,
+.formulario__nome:not(:placeholder-shown) + label,
+.formulario__email:focus + label,
+.formulario__email:not(:placeholder-shown) + label,
+.formulario__assunto:focus + label,
+.formulario__assunto:not(:placeholder-shown) + label,
+.formulario__mensagem:focus + label,
+.formulario__mensagem:not(:placeholder-shown) + label {
+    font-size: 0.75rem;
+    margin-top: 0;
+    color: var(--azul-medio);
+}
+
+.label-float{
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 0.875rem;
+}
+
+.label-float label{
+    color: #464646;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 1rem;
+    padding-left: 0.8rem;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+}
+
+.formulario__botao {
+    background-color: var(--azul-medio);
+    border: none;
+    color: var(--gelo);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    width: 9.4rem;
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.input-container--invalido {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalido .input {
+    border: 1px solid var(--cor-aviso);
+    border-radius: 7px;
+}
+
+.input-container--invalido .input-label {
+    color: var(--cor-aviso);
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+    color: var(--cor-aviso);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 375px) {
+    .formulario__painel{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formulario {
+        padding-right: 2rem;
+    }
+
+    .formulario__painel {
+        display: none;
+    }
+
+    .formulario__titulo {
+        padding-top: 0.5rem;
+    }
+
+    .formulario__texto {
+        padding-top: 0;
+    }
+
+    .label-float {
+        padding-top: 0;
+        width: 44rem;
+    }
+
+    .formulario__nome, .formulario__email,
+    .formulario__assunto, .formulario__mensagem {
+        width: 43rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .formulario {
+        height: 45rem;
+        padding-right: 6rem;
+    }
+
+    .formulario__painel {
+        display: flex;
+        height: 38.8rem;
+        padding-left: 4rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        width: 18rem;
+    }
+
+    .formulario__imagem {
+        height: 38.8rem;
+        width: 18rem;
+    }
+
+    .formulario__titulo {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    .formulario__texto {
+        padding-top: 0;
+        width: 32rem;
+    }
+
+    .label-float {
+        padding-top: 0;
+        width: 32rem;
+    }
+
+    .formulario__nome, .formulario__email,
+    .formulario__assunto, .formulario__mensagem {
+        width: 32rem;
+    }
+
+    .formulario__mensagem {
+        height: 8rem;
+    }
+
+    .formulario__botao {
+        margin-bottom: 0;
+    }
+}

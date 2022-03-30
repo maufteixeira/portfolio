@@ -1,0 +1,488 @@
+.experiencia {
+    background-color: var(--gelo);
+    color: var(--cinza-escuro);
+}
+
+.experiencia__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.experiencia__telas {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.experiencia__tela--conversor {
+    align-items: center;
+    background-image: url("../img/conversor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    justify-content: center;
+    width: 18.5rem;
+}
+
+.experiencia__tela--financeiro {
+    background-image: url("../img/financeiro.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 18.5rem;
+}
+
+.experiencia__tela--slider {
+    background-image: url("../img/slider.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 18.5rem;
+}
+
+.experiencia__tela--urna {
+    background-image: url("../img/urna.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 18.5rem;
+}
+
+.experiencia__tela--multiform {
+    background-image: url("../img/multiform.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 18.5rem;
+}
+
+.experiencia__tela--photo-gallery {
+    background-image: url("../img/photo-gallery.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 18.5rem;
+}
+
+.experiencia__tela--todo-list {
+    background-image: url("../img/todo-list.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 18.5rem;
+}
+
+.experiencia__tela--covid {
+    background-image: url("../img/covid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 18.5rem;
+}
+
+.experiencia__tela--forca {
+    background-image: url("../img/forca.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 18.5rem;
+}
+
+.experiencia__tela--encrypter {
+    background-image: url("../img/encrypter.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    width: 18.5rem;
+}
+
+.experiencia__texto {
+    align-items: center;
+    display: flex;
+    height: 2rem;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.experiencia__nome {
+    font-size: 1rem;
+    font-weight: 700;
+    height: 2rem;
+    padding-bottom: 0.5rem;
+    width: 18.5rem;
+}
+
+.experiencia__descricao {
+    font-size: 0.875rem;
+    font-weight: 500;
+    height: 1rem;
+    padding-bottom: 0.5rem;
+    width: 18.5rem;
+}
+
+.experiencia__botoes {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    justify-content: flex-start;
+    padding-bottom: 3rem;
+    padding-left: 2.5rem;
+    padding-top: 0.5rem;
+    width: 100%;
+}
+
+.experiencia__botoes:last-child {
+    padding-bottom: 2rem;
+}
+
+.experiencia__repo {
+    border: 1px solid var(--azul-medio);
+    color: var(--azul-medio);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 2.5rem;
+    margin-right: 1rem;
+    width: 6rem;
+}
+
+.experiencia__demo {
+    background-color: var(--azul-medio);
+    border: none;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 2.5rem;
+    margin-right: 1rem;
+    width: 6rem;
+}
+.experiencia__link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .experiencia__titulo{
+        padding-bottom: 1rem;
+    }
+
+    .experiencia__tela--conversor {
+        align-items: center;
+        background-image: url("../img/conversor.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+        justify-content: center;
+        width: 44rem;
+    }
+    
+    .experiencia__tela--financeiro {
+        background-image: url("../img/financeiro.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 44rem;
+    }
+    
+    .experiencia__tela--slider {
+        background-image: url("../img/slider.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 44rem;
+    }
+    
+    .experiencia__tela--urna {
+        background-image: url("../img/urna.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 44rem;
+    }
+    
+    .experiencia__tela--multiform {
+        background-image: url("../img/multiform.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 44rem;
+    }
+    
+    .experiencia__tela--photo-gallery {
+        background-image: url("../img/photo-gallery.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 44rem;
+    }
+    
+    .experiencia__tela--todo-list {
+        background-image: url("../img/todo-list.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 44rem;
+    }
+    
+    .experiencia__tela--covid {
+        background-image: url("../img/covid.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 44rem;
+    }
+    
+    .experiencia__tela--forca {
+        background-image: url("../img/forca.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 44rem;
+    }
+    
+    .experiencia__tela--encrypter {
+        background-image: url("../img/encrypter.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 44rem;
+    }
+
+    .experiencia__texto {
+        align-items: flex-start;
+        display: flex;
+        height: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .experiencia__nome {
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+    }
+
+    .experiencia__descricao {
+        padding-left: 2rem;
+    }
+
+    .experiencia__botoes {
+        padding-top: 1rem;
+        padding-left: 2rem;
+    }
+
+    .experiencia__repo {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .experiencia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .experiencia__titulo{
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .experiencia__img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        width: 80%;
+    }
+
+    .experiencia__img:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .experiencia__telas {
+        display: flex;
+        flex-direction: column;
+        width: 57%;
+    }
+    
+    .experiencia__tela--conversor {
+        background-image: url("../img/conversor.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        width: 100%;
+    }
+    
+    .experiencia__tela--financeiro {
+        background-image: url("../img/financeiro.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        width: 100%;
+    }
+
+    .experiencia__tela--slider {
+        background-image: url("../img/slider.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        width: 100%;  
+    }
+
+    .experiencia__tela--urna {
+        background-image: url("../img/urna.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        margin-left: 6rem;
+        width: 100%;
+    }
+
+    .experiencia__tela--multiform {
+        background-image: url("../img/multiform.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        width: 100%;
+    }
+
+    .experiencia__tela--photo-gallery {
+        background-image: url("../img/photo-gallery.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        margin-left: 6rem;
+        width: 100%;
+    }
+
+    .experiencia__tela--todo-list {
+        background-image: url("../img/todo-list.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .experiencia__tela--covid {
+        background-image: url("../img/covid.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        margin-left: 6rem;
+        width: 100%;
+    }
+
+    .experiencia__tela--forca {
+        background-image: url("../img/forca.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        width: 100%;
+    }
+
+    .experiencia__tela--encrypter {
+        align-self: flex-start;
+        background-image: url("../img/encrypter.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 21rem;
+        margin-left: 6rem;
+        width: 100%;
+    }
+    
+    .experiencia__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 1.6rem;
+    }
+
+    .experiencia__texto {
+        align-items: flex-start;
+        display: flex;
+        height: 2rem;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .experiencia__nome {
+        padding-left: 0;
+    }
+
+    .experiencia__descricao {
+        padding-left: 0;
+    }
+
+    .experiencia__botoes {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        width: 90%;
+    }
+
+    .experiencia__demo {
+        margin-right: 0;
+    }
+
+}

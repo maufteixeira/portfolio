@@ -1,0 +1,130 @@
+.identificacao {
+    background-color: var(--gelo);
+    color: var(--cinza-escuro);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.identificacao__logo {
+    height: 6.125rem;
+    left: 1rem;
+    padding-left: 1rem;
+    padding-top: 4.5rem;
+    width: 6.125rem;
+}
+
+.identificacao__imagem {
+    border-radius: 100%;
+    height: 6.125rem;
+    width: 6.125rem;
+}
+
+.identificacao__titulo {
+    font-weight: 700;
+    font-size: 1.375rem;
+    left: 1rem;
+    padding-left: 1rem;
+}
+
+.identificacao__descricao {
+    font-size: 0.875rem;
+    left: 1rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    vertical-align: top;
+}
+
+@media screen and (min-width: 768px) {
+    .identificacao {
+        flex-direction: column;
+        height: 17.6rem;
+    }
+    
+    .identificacao__titulo {
+        align-items: center;
+        margin-bottom: 0;
+        height: 2rem;
+        padding-top: 5rem;
+        position: absolute;
+        width: 32.75rem;
+        
+    }
+    
+    .identificacao__descricao {
+        font-size: 1rem;
+        font-weight: 400;
+        height: 2rem;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-left: 1rem;
+        margin-top: 10.5rem;
+        position: absolute;
+        width: 32.75rem;
+    }
+
+    .identificacao__logo {
+        align-self: flex-end;
+        height: 9.125rem;
+        margin-top: 6rem;
+        padding: 0;
+        padding-right: 2rem;
+        position: static;
+        width: 9.125rem;
+        
+    }
+
+    .identificacao__imagem {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .identificacao {
+        flex-direction: column;
+        height: 31rem;
+    }
+    
+    .identificacao__titulo {
+        align-items: center;
+        font-size: 3rem;
+        height: 7.6rem;
+        margin-bottom: 0;
+        padding-left: 6rem;
+        padding-top: 7rem;
+        position: absolute;
+        width: 46rem;
+        
+    }
+    
+    .identificacao__descricao {
+        font-size: 1.375rem;
+        font-weight: 400;
+        height: 2rem;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-left: 6rem;
+        margin-top: 17.5rem;
+        position: absolute;
+        width: 46rem;
+    }
+
+    .identificacao__logo {
+        align-self: flex-end;
+        height: 23rem;
+        margin-top: 6rem;
+        padding: 0;
+        padding-right: 6rem;
+        position: static;
+        width: 23rem;
+        
+    }
+
+    .identificacao__imagem {
+        height: 100%;
+        width: 100%;
+    }
+    
+}

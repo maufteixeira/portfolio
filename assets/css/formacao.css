@@ -1,0 +1,242 @@
+.formacao {
+    background-color: var(--azul-claro);
+    color: var(--cinza-escuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+.formacao__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.formacao__area {
+    align-items: center;
+    display: flex;
+    width: 22.5rem;
+    justify-content: center;
+}
+
+.formacao__lista {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.formacao__item {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+    list-style-type: none;
+    margin: 4%;
+    width: 18.5rem;
+}
+
+.formacao__img {
+    align-self: center;
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    justify-content: center;
+    width: 18.5rem;
+}
+
+.formacao__logo {
+    height: 3.625rem;
+    width: 5.25rem;
+}
+
+.formacao__info {
+    background-color: var(--azul-claro);
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    width: 18.5rem
+}
+
+.formacao__curso {
+    align-self: flex-start;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.formacao__ano {
+    align-self: flex-start;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.svg {
+    fill: var(--azul-medio);
+    height: 2rem;
+    width: 2rem;
+}
+
+.svg:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px){
+    .formacao {
+        width: 48rem;
+        margin-right: 2rem;
+    }
+    
+    .formacao__titulo {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    
+    .formacao__area {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+
+    .formacao__lista {
+        align-items: flex-start;
+        flex-direction: row;
+        height: 75rem;
+        justify-content: center;
+        width: 768px;
+    }
+
+    .formacao__item {
+        align-items: flex-start;
+        align-self: flex-start;
+        height: 11rem;
+        justify-content:flex-end;
+        margin: 0.5rem;
+        padding-bottom: 0.5rem;
+        width: 14rem;
+    }
+
+    .formacao__img {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 8rem;
+        justify-content: center;
+        width: 14rem;
+
+    }
+
+    .formacao__info {
+        display: flex;
+        flex-direction: column;
+        height: 3rem;
+        width: 14rem;
+    }
+
+    .formacao__curso {
+        align-self: flex-start;
+        font-size: 1rem;
+        font-weight: 700;
+        padding-top: 0.5rem;
+        width: 14rem;
+    }
+    
+    .formacao__ano {
+        align-self: flex-start;
+        font-size: 0.875rem;
+        font-weight: 500;
+        width: 14rem;
+    
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .formacao {
+        height: 200rem;
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .formacao__titulo {
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .formacao__area {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        height: 190rem;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+
+    .formacao__lista {
+        align-items: flex-start;
+        flex-direction: row;
+        height: 190rem;
+        justify-content: flex-start;
+        padding-left: 6rem;
+        width: 100%;
+    }
+
+    .formacao__item {
+        align-items: flex-start;
+        align-self: flex-start;
+        height: 17.8rem;
+        width: 23rem;
+    }
+
+    .formacao__img {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 17.8rem;
+        justify-content: center;
+        width: 23rem;
+    }
+
+    .formacao__logo {
+        height: 8rem;
+        width: 12rem;
+    }
+
+    .formacao__info {
+        display: flex;
+        flex-direction: column;
+        height: 3rem;
+        width: 23rem;
+    }
+
+    .formacao__curso {
+        align-self: flex-start;
+        font-size: 1.375rem;
+        font-weight: 700;
+        padding-top: 0.5rem;
+        width: 23rem;
+    }
+
+    .formacao__ano {
+        align-self: flex-start;
+        font-size: 1rem;
+        font-weight: 500;
+        width: 23rem;
+    }
+}

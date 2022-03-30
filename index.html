@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/identificacao.css">
+    <link rel="stylesheet" href="./assets/css/navegacao.css">
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/formacao.css">
+    <link rel="stylesheet" href="./assets/css/experiencia.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
+    <title>Challenge Front-end | Portfólio</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="svg_1">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5 5.5L8 0L5.5 5.5L0 8L5.5 10.5L8 16L10.5 10.5L16 8L10.5 5.5ZM8.99 8.99L8 11.17L7.01 8.99L4.83 8L7.01 7.01L8 4.83L8.99 7.01L11.17 8L8.99 8.99Z" fill="#464646"/>
+            </svg>
+            <div class="svg_2">
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 8L5.25 5.25L8 4L5.25 2.75L4 0L2.75 2.75L0 4L2.75 5.25L4 8Z" fill="#464646"/>
+                </svg>
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 8L5.25 5.25L8 4L5.25 2.75L4 0L2.75 2.75L0 4L2.75 5.25L4 8Z" fill="#464646"/>
+                </svg>
+            </div>
+        </div>
+        
+        <p class="cabecalho__titulo">Mauricio Teixeira</p>
+        <nav class="cabecalho__menu">
+            <ul class="cabecalho__menu--lista">
+                <li class="cabecalho__menu--item">
+                    <a class="cabecalho__menu--link" href="#sobre">Sobre mim</a>
+                </li>
+                <li class="cabecalho__menu--item">
+                    <a class="cabecalho__menu--link" href="#skills">Skills</a>
+                </li>
+                <li class="cabecalho__menu--item">
+                    <a class="cabecalho__menu--link" href="#hobbies">Hobbies</a>
+                </li>
+                <li class="cabecalho__menu--item">
+                    <a class="cabecalho__menu--link" href="#formacao">Formação</a>
+                </li>
+                <li class="cabecalho__menu--item">
+                    <a class="cabecalho__menu--link" href="#projetos">Projetos</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="cabecalho__email" href= mailto: maufteixeira@gmail.com>maufteixeira@gmail.com</a>
+    </header>
+    <main>
+        <section class="identificacao container">  
+            <div class="identificacao__logo">
+                <img class="identificacao__imagem" src="./assets/img/foto.png" alt="Foto de Perfil">
+            </div>
+            <p class="identificacao__titulo">Olá, meu nome é Mauricio Teixeira e construo páginas web</p>
+            <p class="identificacao__descricao">
+                Eu sou desenvolvedor Front-end autodidata, e, atualmente, estou participando no projeto
+                Oracle ONE da Alura.
+            </p>
+            <nav class="navegacao">
+                <ul class="navegacao__lista">
+                    <li class="navegacao__item">
+                        <a 
+                            class="navegacao__link"
+                            href="https://github.com/maufteixeira">
+                            Github 
+                            <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853L1.22853 1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="navegacao__item">
+                        <a
+                            class="navegacao__link" 
+                            href="https://www.linkedin.com/in/mauricio-teixeira-js">
+                            Linkedin 
+                            <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853L1.22853 1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="navegacao__item">
+                        <a 
+                            class="navegacao__link" 
+                            href="https://instagram.com/maufteixeira" target="_blank">
+                            Instagram 
+                            <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853L1.22853 1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="navegacao__item">
+                        <a 
+                            class="navegacao__link" 
+                            href="assets/Curriculo.pdf" target="__blank">
+                            Currículo
+                            <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.69993 8.24264L7.43693 2.50565L7.43693 7.77595L8.771 7.77124V0.228764H1.22853L1.22853 1.55812L6.49412 1.56284L0.757123 7.29983L1.69993 8.24264Z" fill="#464646"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="sobre">
+            <h2 class="sobre__titulo"><a name="sobre"></a>Sobre mim</h2>
+            <p class="sobre__texto">Brasileiro, 44 anos, casado. Apaixonado por tecnologia, cursei o ensino médio em escola pública, onde tive contato com o primeiro computador.
+                Desde então, aprendi a utilizar alguns sistemas operacionais, editores de texto, planihas de cálculos,e acabei despertando em mim interesse
+                pelo desenvolvimento de sistemas. Aprendi a desenvolver em Clipper, HTML, CSS, Delphi, Javascript, ReactJS, VueJS e Angular.
+            </p>
+            <p class="sobre__texto">Atualmente, estudando e participando de bootcamps, webnars, imersões, estudando artigos e documentações, em busca de 
+                uma vaga no mercado de trabalho em TI
+            </p>
+            <div class="sobre__assinatura"></div>
+        </section>
+        <section class="skills">
+            <h2 class="skills__titulo"><a name="skills"></a>Skills</h2>
+            <div class="skills__area">
+                <ul class="skills__lista">
+                    <li
+                        class="skills__item">
+                        <svg class="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 0H3C1.3125 0 0 1.375 0 3V25C0 26.6875 1.3125 28 3 28H25C26.625 28 28 26.6875 28 25V3C28 1.375 26.625 0 25 0ZM15.1875 21.875C15.1875 24.5625 13.625 25.8125 11.25 25.8125C9.1875 25.8125 7.9375 24.75 7.3125 23.4375L9.5 22.125C9.875 22.875 10.25 23.5 11.1875 23.5C12 23.5 12.5625 23.125 12.5625 21.8125V12.875H15.1875V21.875ZM21.4375 25.8125C19 25.8125 17.4375 24.6875 16.625 23.125L18.8125 21.9375C19.375 22.8125 20.0625 23.5 21.375 23.5C22.4375 23.5 23.1875 22.9375 23.1875 22.1875C23.1875 21.3125 22.4375 21 21.25 20.4375L20.5625 20.1875C18.6875 19.375 17.4375 18.375 17.4375 16.1875C17.4375 14.25 18.9375 12.75 21.3125 12.75C22.9375 12.75 24.1875 13.3125 25 14.8125L23 16.125C22.5 15.375 22.0625 15 21.25 15C20.5 15 20 15.5 20 16.125C20 16.9375 20.5 17.25 21.625 17.75L22.3125 18.0625C24.5625 19 25.8125 20 25.8125 22.1875C25.8125 24.5625 23.9375 25.8125 21.4375 25.8125Z" fill="#2A7AE4"/>
+                        </svg>
+                        Javascript
+                    </li>
+                    <li
+                        class="skills__item">
+                        <svg class="svg" width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0L2.125 24.75L11.9375 28L21.8125 24.75L24 0H0ZM19.25 8H7.75L8 11.125H19L18.125 20.375L12 22.0625H11.9375L5.75 20.375L5.375 15.625H8.375L8.625 18L11.9375 18.9375L15.3125 18L15.6875 14.125H5.25L4.4375 5.0625H19.5L19.25 8Z" fill="#2A7AE4"/>
+                        </svg>
+                        HTML
+                    </li>
+                    <li 
+                        class="skills__item">
+                        <svg class="svg" width="40" height="26" viewBox="0 0 40 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.75 25.25C19.875 25.25 20 25.25 20.125 25.1875L23.75 23.0625C23.9375 22.9375 24.125 22.6875 24.125 22.4375V18.25C24.125 18 23.9375 17.75 23.75 17.625L20.125 15.5C19.875 15.375 19.5625 15.375 19.375 15.5L15.75 17.625C15.5 17.75 15.375 18 15.375 18.25V22.4375C15.375 22.6875 15.5 22.9375 15.75 23.0625L16.6875 23.625C17.125 23.875 17.3125 23.875 17.5 23.875C18.1875 23.875 18.625 23.4375 18.625 22.75V18.625C18.625 18.5625 18.5625 18.5 18.5 18.5H18.0625C18 18.5 17.9375 18.5625 17.9375 18.625V22.75C17.9375 23.0625 17.625 23.375 17.0625 23.0625L16.0625 22.5L16 22.4375V18.25L16.0625 18.1875L19.6875 16.0625C19.75 16.0625 19.75 16.0625 19.8125 16.0625L23.4375 18.1875C23.4375 18.1875 23.4375 18.1875 23.4375 18.25V22.4375C23.4375 22.5 23.4375 22.5 23.4375 22.5L19.8125 24.625C19.75 24.625 19.6875 24.625 19.6875 24.625L18.75 24.0625H18.6875C18.4375 24.1875 18.375 24.25 18.125 24.3125C18.0625 24.3125 18 24.375 18.1875 24.4375L19.375 25.1875C19.5 25.25 19.625 25.25 19.75 25.25ZM22.6875 21.1875C22.6875 20.375 22.125 20.1875 21 20C19.875 19.875 19.8125 19.8125 19.8125 19.5625C19.8125 19.3125 19.875 19.0625 20.6875 19.0625C21.4375 19.0625 21.75 19.1875 21.8125 19.6875C21.875 19.75 21.875 19.75 21.9375 19.75H22.4375C22.4375 19.75 22.4375 19.75 22.5 19.75V19.6875C22.4375 18.8125 21.875 18.375 20.6875 18.375C19.6875 18.375 19.0625 18.8125 19.0625 19.5625C19.0625 20.375 19.6875 20.5625 20.6875 20.6875C21.875 20.8125 21.9375 20.9375 21.9375 21.1875C21.9375 21.625 21.625 21.75 20.875 21.75C19.875 21.75 19.6875 21.5 19.625 21.0625C19.625 21 19.5625 20.9375 19.5 20.9375H19.0625C19 20.9375 18.9375 21 18.9375 21.0625C18.9375 21.6875 19.25 22.375 20.875 22.375C22 22.375 22.6875 21.9375 22.6875 21.1875ZM26.0625 18.0625C26.0625 17.625 25.75 17.3125 25.375 17.3125C25 17.3125 24.6875 17.625 24.6875 18.0625C24.6875 18.4375 25 18.75 25.375 18.75C25.75 18.75 26.0625 18.4375 26.0625 18.0625ZM25.9375 18.0625C25.9375 18.375 25.6875 18.625 25.375 18.625C25.0625 18.625 24.8125 18.375 24.8125 18.0625C24.8125 17.6875 25.0625 17.4375 25.375 17.4375C25.6875 17.4375 25.9375 17.6875 25.9375 18.0625ZM25.6875 18.4375C25.625 18.375 25.625 18.25 25.625 18.1875C25.625 18.125 25.625 18.0625 25.5 18.0625C25.5625 18 25.625 18 25.625 17.875C25.625 17.625 25.5 17.625 25.375 17.625H25.125V18.4375H25.25V18.125H25.375C25.4375 18.125 25.4375 18.125 25.5 18.1875C25.5 18.1875 25.5 18.375 25.5 18.4375H25.6875ZM25.5 17.875C25.5 17.9375 25.5 18 25.375 18H25.25V17.75H25.375C25.4375 17.75 25.5 17.75 25.5 17.875ZM8.5625 8.9375C8.5625 8.8125 8.4375 8.625 8.3125 8.5625L4.5 6.375C4.4375 6.3125 4.375 6.3125 4.25 6.3125C4.1875 6.3125 4.125 6.3125 4 6.375L0.1875 8.5625C0.0625 8.625 0 8.8125 0 8.9375V14.875C0 15 0 15.0625 0.0625 15.125C0.1875 15.125 0.25 15.125 0.3125 15.125L2.625 13.8125C2.75 13.6875 2.8125 13.5625 2.8125 13.375V10.625C2.8125 10.4375 2.9375 10.3125 3.0625 10.25L4 9.6875C4.125 9.625 4.1875 9.625 4.25 9.625C4.3125 9.625 4.4375 9.625 4.5 9.6875L5.4375 10.25C5.625 10.3125 5.6875 10.4375 5.6875 10.625V13.375C5.6875 13.5625 5.75 13.6875 5.9375 13.8125L8.1875 15.125C8.25 15.125 8.375 15.125 8.4375 15.125C8.5 15.0625 8.5625 15 8.5625 14.875V8.9375ZM29.5 2.5C29.5 2.3125 29.4375 2.1875 29.25 2.0625L27 0.8125C26.8125 0.75 26.625 0.8125 26.625 1V6.875C26.625 7 26.5 7.0625 26.375 7L25.4375 6.5C25.3125 6.375 25.125 6.375 25 6.5L21.125 8.6875C21 8.75 20.9375 8.9375 20.9375 9.0625V13.5C20.9375 13.6875 21 13.8125 21.125 13.9375L25 16.125C25.125 16.1875 25.3125 16.1875 25.4375 16.125L29.25 13.9375C29.4375 13.8125 29.5 13.6875 29.5 13.5V2.5ZM26.625 10.5625V12.0625C26.625 12.125 26.625 12.125 26.5625 12.1875L25.25 12.9375C25.25 12.9375 25.1875 12.9375 25.125 12.9375L23.8125 12.1875C23.8125 12.125 23.75 12.125 23.75 12.0625V10.5625C23.75 10.5 23.8125 10.4375 23.8125 10.4375L25.125 9.6875C25.1875 9.6875 25.25 9.6875 25.25 9.6875L26.5625 10.4375C26.625 10.4375 26.625 10.5 26.625 10.5625ZM39.75 10.5C39.875 10.4375 40 10.25 40 10.125V9C40 8.875 39.875 8.6875 39.75 8.625L35.9375 6.4375C35.8125 6.3125 35.625 6.3125 35.5 6.4375L31.625 8.625C31.5 8.6875 31.4375 8.875 31.4375 9V13.4375C31.4375 13.625 31.5 13.75 31.625 13.875L35.4375 16C35.5625 16.125 35.75 16.125 35.875 16L38.1875 14.75C38.375 14.625 38.375 14.4375 38.1875 14.3125L34.375 12.125C34.25 12.0625 34.25 12 34.25 11.9375V10.5625C34.25 10.4375 34.25 10.375 34.375 10.3125L35.5625 9.625C35.625 9.625 35.6875 9.625 35.75 9.625L37 10.3125C37.0625 10.375 37.125 10.4375 37.125 10.5625V11.625C37.125 11.8125 37.3125 11.9375 37.4375 11.8125L39.75 10.5ZM34.9375 10.6875C34.875 10.75 34.875 10.75 34.875 10.8125V11.625C34.875 11.6875 34.875 11.6875 34.9375 11.6875L35.625 12.125C35.6875 12.1875 35.6875 12.1875 35.75 12.125L36.5 11.6875C36.5 11.6875 36.5 11.6875 36.5 11.625V10.8125C36.5 10.75 36.5 10.75 36.5 10.6875L35.75 10.3125C35.6875 10.25 35.6875 10.25 35.625 10.3125L34.9375 10.6875ZM19 13.4375V9.0625C19 8.875 18.9375 8.6875 18.75 8.625L14.9375 6.4375C14.8125 6.375 14.625 6.375 14.5 6.4375L10.6875 8.625C10.5625 8.6875 10.4375 8.875 10.4375 9.0625V13.4375C10.4375 13.625 10.5625 13.75 10.6875 13.8125L14.5 16.0625C14.6875 16.125 14.8125 16.125 15 16.0625L18.8125 13.8125C18.875 13.75 19 13.6875 19 13.5625C19 13.5 19 13.5 19 13.4375ZM14.375 5.625V5.6875H14.3125L14.375 5.625Z" fill="#2A7AE4"/>
+                        </svg>
+                        NodeJS
+                    </li>
+                    <li
+                        class="skills__item">
+                        <svg class="svg" width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.125 10.125C25.75 10 25.4375 9.875 25.125 9.8125C25.125 9.5625 25.1875 9.3125 25.25 9.0625C26 5.375 25.5 2.375 23.8125 1.375C22.1875 0.4375 19.5 1.4375 16.75 3.8125C16.5 4 16.25 4.25 16 4.5C15.8125 4.3125 15.625 4.1875 15.5 4C12.625 1.5 9.75 0.4375 8.0625 1.4375C6.4375 2.375 5.9375 5.1875 6.625 8.75C6.6875 9.0625 6.75 9.4375 6.875 9.75C6.4375 9.875 6.0625 10 5.6875 10.125C2.375 11.3125 0 13.125 0 15C0 16.9375 2.5 18.9375 6 20.125C6.25 20.1875 6.5625 20.3125 6.8125 20.375C6.75 20.75 6.6875 21.125 6.5625 21.5C5.9375 24.9375 6.4375 27.6875 8.0625 28.625C9.75 29.625 12.625 28.625 15.375 26.1875C15.5625 26 15.8125 25.8125 16 25.625C16.3125 25.875 16.5625 26.125 16.875 26.375C19.5625 28.6875 22.1875 29.625 23.8125 28.6875C25.5 27.6875 26.0625 24.75 25.375 21.125C25.3125 20.875 25.25 20.5625 25.1875 20.3125C25.375 20.25 25.5625 20.1875 25.75 20.125C29.375 18.9375 32 17 32 15C32 13.125 29.5 11.25 26.125 10.125ZM17.625 4.8125C20 2.75 22.125 2 23.125 2.5625C24.1875 3.125 24.625 5.625 23.9375 8.8125C23.875 9.0625 23.875 9.25 23.8125 9.4375C22.375 9.125 21 8.9375 19.5625 8.8125C18.75 7.625 17.875 6.5 16.9375 5.4375C17.1875 5.25 17.375 5 17.625 4.8125ZM10.4375 18.25C10.75 18.8125 11.0625 19.3125 11.4375 19.875C10.4375 19.75 9.4375 19.625 8.5 19.375C8.8125 18.5 9.125 17.5625 9.5 16.625C9.8125 17.1875 10.125 17.6875 10.4375 18.25ZM8.5 10.75C9.4375 10.5 10.375 10.375 11.375 10.25C11.0625 10.75 10.75 11.3125 10.4375 11.8125C10.125 12.375 9.8125 12.875 9.5 13.4375C9.125 12.5 8.8125 11.625 8.5 10.75ZM10.25 15.0625C10.625 14.1875 11.125 13.3125 11.5625 12.5C12.0625 11.6875 12.5625 10.875 13.125 10.0625C14.0625 10 15 9.9375 16 9.9375C16.9375 9.9375 17.9375 10 18.8125 10.0625C19.375 10.875 19.875 11.6875 20.375 12.5C20.8125 13.3125 21.3125 14.125 21.6875 15C21.3125 15.875 20.875 16.75 20.375 17.5625C19.875 18.375 19.375 19.1875 18.875 20C17.9375 20.0625 16.9375 20.125 16 20.125C15 20.125 14.0625 20.0625 13.125 20C12.5625 19.1875 12.0625 18.375 11.5625 17.5625C11.125 16.75 10.6875 15.875 10.25 15.0625ZM21.5 18.25C21.875 17.6875 22.125 17.125 22.4375 16.5625C22.8125 17.5 23.1875 18.375 23.5 19.3125C22.5 19.5625 21.5625 19.75 20.5625 19.8125C20.875 19.3125 21.1875 18.75 21.5 18.25ZM22.4375 13.4375C22.125 12.875 21.8125 12.375 21.5 11.8125C21.1875 11.3125 20.875 10.75 20.5625 10.25C21.5625 10.375 22.5625 10.5625 23.4375 10.75C23.125 11.6875 22.8125 12.5625 22.4375 13.4375ZM16 6.4375C16.625 7.125 17.25 7.875 17.8125 8.6875C16.625 8.625 15.375 8.625 14.125 8.6875C14.75 7.875 15.375 7.125 16 6.4375ZM8.75 2.5625C9.8125 2 12.125 2.875 14.5625 5C14.75 5.1875 14.875 5.3125 15.0625 5.4375C14.0625 6.5 13.1875 7.625 12.375 8.8125C10.9375 8.9375 9.5625 9.125 8.1875 9.4375C8.0625 9.125 8 8.8125 7.9375 8.4375C7.375 5.4375 7.75 3.1875 8.75 2.5625ZM7.1875 19.0625C6.9375 19 6.6875 18.9375 6.4375 18.8125C5.125 18.375 3.5625 17.75 2.5 16.875C1.875 16.4375 1.4375 15.75 1.3125 15C1.3125 13.875 3.3125 12.375 6.125 11.375C6.5 11.25 6.875 11.1875 7.25 11.0625C7.625 12.4375 8.1875 13.75 8.75 15.0625C8.125 16.3125 7.625 17.6875 7.1875 19.0625ZM14.5 25.1875C13.4375 26.125 12.25 26.875 10.9375 27.375C10.25 27.75 9.5 27.75 8.75 27.5C7.75 26.875 7.375 24.6875 7.9375 21.75C8 21.375 8.0625 21 8.125 20.6875C9.5625 21 10.9375 21.1875 12.375 21.3125C13.1875 22.4375 14.125 23.5625 15.0625 24.625C14.875 24.8125 14.6875 25 14.5 25.1875ZM16 23.6875C15.375 23 14.75 22.25 14.125 21.375C14.75 21.4375 15.375 21.4375 16 21.4375C16.625 21.4375 17.25 21.4375 17.875 21.375C17.3125 22.1875 16.6875 22.9375 16 23.6875ZM24.1875 25.5625C24.125 26.3125 23.75 27 23.1875 27.5C22.1875 28.0625 20.0625 27.3125 17.75 25.375C17.5 25.125 17.25 24.875 16.9375 24.625C17.9375 23.5625 18.8125 22.5 19.625 21.3125C21.0625 21.1875 22.4375 20.9375 23.875 20.625C23.9375 20.875 24 21.125 24.0625 21.375C24.3125 22.75 24.375 24.1875 24.1875 25.5625ZM25.3125 18.8125C25.125 18.875 25 18.9375 24.8125 19C24.375 17.625 23.8125 16.3125 23.1875 15C23.8125 13.75 24.3125 12.4375 24.75 11.0625C25.0625 11.1875 25.375 11.25 25.6875 11.375C28.5625 12.375 30.625 13.875 30.625 15C30.625 16.1875 28.4375 17.8125 25.3125 18.8125ZM16 17.875C17.5625 17.875 18.8125 16.625 18.8125 15C18.8125 13.4375 17.5625 12.1875 16 12.1875C14.375 12.1875 13.125 13.4375 13.125 15C13.125 16.625 14.375 17.875 16 17.875Z" fill="#2A7AE4"/>
+                        </svg>
+                        React
+                    </li>
+                    <li 
+                        class="skills__item">
+                        <svg class="svg" width="22" height="29" viewBox="0 0 22 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.3005 0.315063H4.10521C2.46968 0.315063 1.13848 1.6451 1.13848 3.27726V14.2307H0.848663C0.188553 14.2307 -0.34668 14.7647 -0.34668 15.4243V22.6632C-0.34668 23.3228 0.188553 23.8569 0.848663 23.8569H1.13848V25.1842C1.13848 26.8181 2.46974 28.1464 4.10521 28.1464H19.3807C21.0153 28.1464 22.3466 26.8181 22.3466 25.1842V7.32565L15.3005 0.315063ZM5.36294 20.8191C5.70606 20.8191 6.08647 20.7446 6.31066 20.6555L6.48185 21.5415C6.2732 21.6461 5.80307 21.7581 5.19169 21.7581C3.45331 21.7581 2.55808 20.6782 2.55808 19.248C2.55808 17.535 3.78169 16.5816 5.30339 16.5816C5.89285 16.5816 6.34026 16.7007 6.54157 16.8045L6.31066 17.706C6.07918 17.6087 5.75849 17.5196 5.35571 17.5196C4.45273 17.5196 3.75163 18.0635 3.75163 19.1808C3.75163 20.186 4.34843 20.8191 5.36294 20.8191ZM19.3807 26.3323H4.10521C3.47193 26.3323 2.95618 25.8174 2.95618 25.1842V23.8569H17.1961C17.8563 23.8569 18.3916 23.3228 18.3916 22.6632V15.4243C18.3916 14.7647 17.8563 14.2307 17.1961 14.2307H2.95618V3.27726C2.95618 2.64581 3.47193 2.13091 4.10521 2.13091L14.6208 2.12V6.00099C14.6208 7.13453 15.542 8.05523 16.6782 8.05523L20.4858 8.04438L20.5287 25.1842C20.5287 25.8174 20.0139 26.3323 19.3807 26.3323ZM8.48374 19.5756C7.64811 19.2854 7.10334 18.8232 7.10334 18.0935C7.10334 17.2364 7.81941 16.5815 9.00573 16.5815C9.57247 16.5815 9.99075 16.7006 10.2887 16.8344L10.0353 17.7506C9.83402 17.6541 9.47587 17.5121 8.98342 17.5121C8.49097 17.5121 8.25226 17.736 8.25226 17.9963C8.25226 18.3165 8.5356 18.4584 9.18478 18.704C10.0727 19.0316 10.4904 19.4937 10.4904 20.2015C10.4904 21.043 9.84125 21.7581 8.46131 21.7581C7.88682 21.7581 7.31967 21.6089 7.03633 21.4524L7.2677 20.5144C7.57347 20.6709 8.04361 20.8265 8.52831 20.8265C9.05042 20.8265 9.32648 20.6108 9.32648 20.2833C9.32654 19.9704 9.08783 19.7912 8.48374 19.5756ZM12.5142 19.5756C11.6787 19.2854 11.1338 18.8232 11.1338 18.0935C11.1338 17.2364 11.85 16.5815 13.0362 16.5815C13.6035 16.5815 14.0207 16.7006 14.3196 16.8344L14.0659 17.7506C13.8645 17.6541 13.5065 17.5121 13.014 17.5121C12.5215 17.5121 12.2828 17.736 12.2828 17.9963C12.2828 18.3165 12.5661 18.4584 13.2154 18.704C14.1033 19.0316 14.5212 19.4937 14.5212 20.2015C14.5212 21.043 13.872 21.7581 12.492 21.7581C11.9174 21.7581 11.3502 21.6089 11.0669 21.4524L11.2984 20.5144C11.604 20.6709 12.0742 20.8265 12.5589 20.8265C13.081 20.8265 13.3571 20.6108 13.3571 20.2833C13.357 19.9704 13.1183 19.7912 12.5142 19.5756Z" fill="#2A7AE4"/>
+                        </svg>
+                        CSS
+                    </li>
+                    <li 
+                        class="skills__item">
+                        <svg  class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M185.7 268.1h76.2l-38.1-91.6-38.1 91.6zM223.8 32L16 106.4l31.8 275.7 176 97.9 176-97.9 31.8-275.7zM354 373.8h-48.6l-26.2-65.4H168.6l-26.2 65.4H93.7L223.8 81.5z"/>
+                        </svg>
+                        Angular
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="hobbies">
+            <h2 class="hobbies__titulo"><a name="hobbies"></a>Hobbies</h2>
+            <div class="hobbies__area">
+                <ul class="hobbies__lista">
+                    <li
+                        class="hobbies__item">
+                        <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.375 2.4375L31.5625 0.625C31.1875 0.25 30.6875 0 30.125 0C29.5625 0 29.0625 0.25 28.6875 0.625L25.8125 3.5C25.5625 3.75 25.375 4.0625 25.25 4.375L24.5 6.625L19.75 11.4375C19 10.875 18.1875 10.4375 17.25 10.25C15.125 9.75 13.0625 10.1875 11.625 11.625C11.0625 12.1875 10.625 12.875 10.375 13.6875C10 14.875 8.9375 15.75 7.75 15.875C6.25 16 4.875 16.5625 3.8125 17.625C0.9375 20.4375 1.5 25.5625 4.9375 29.0625C8.4375 32.5 13.5625 33 16.375 30.1875C17.4375 29.125 18 27.75 18.1875 26.25C18.25 25.0625 19.125 24 20.3125 23.625C21.125 23.375 21.8125 22.9375 22.375 22.375C23.8125 20.9375 24.25 18.875 23.75 16.75C23.5625 15.875 23.125 15 22.5625 14.25L27.375 9.5L29.625 8.75C29.9375 8.625 30.25 8.4375 30.5 8.1875L33.375 5.3125C33.75 4.9375 33.9375 4.4375 33.9375 3.875C33.9375 3.3125 33.75 2.8125 33.375 2.4375ZM15 22C13.3125 22 12 20.6875 12 19C12 17.375 13.3125 16 15 16C16.625 16 18 17.375 18 19C18 20.6875 16.625 22 15 22Z" fill="#2A7AE4"/>
+                        </svg>
+                        Tocar violão
+                    </li>
+                    <li
+                        class="hobbies__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.37333 0 0 5.37333 0 12V21.3333C0 22.8 1.2 24 2.66667 24H8V13.3333H2.66667V12C2.66667 6.84 6.84 2.66667 12 2.66667C17.16 2.66667 21.3333 6.84 21.3333 12V13.3333H16V24H21.3333C22.8 24 24 22.8 24 21.3333V12C24 5.37333 18.6267 0 12 0Z" fill="#2A7AE4"/>
+                        </svg>                            
+                        Ouvir música
+                    </li>
+                    <li 
+                        class="hobbies__item">
+                        <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M27 0H3.00004C1.53337 0 0.333374 1.2 0.333374 2.66667V18.6667C0.333374 20.1333 1.53337 21.3333 3.00004 21.3333H9.66671V24H20.3334V21.3333H27C28.4667 21.3333 29.6534 20.1333 29.6534 18.6667L29.6667 2.66667C29.6667 1.2 28.4667 0 27 0ZM27 18.6667H3.00004V2.66667H27V18.6667Z" fill="#2A7AE4"/>
+                        </svg>
+                        Assistir séries
+                    </li>
+                    <li
+                        class="hobbies__item">
+                        <svg width="30" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M0 219.2v212.5c0 14.25 11.62 26.25 26.5 27C75.32 461.2 180.2 471.3 240 511.9V245.2C181.4 205.5 79.99 194.8 29.84 192C13.59 191.1 0 203.6 0 219.2zM482.2 192c-50.09 2.848-151.3 13.47-209.1 53.09C272.1 245.2 272 245.3 272 245.5v266.5c60.04-40.39 164.7-50.76 213.5-53.28C500.4 457.9 512 445.9 512 431.7V219.2C512 203.6 498.4 191.1 482.2 192zM352 96c0-53-43-96-96-96S160 43 160 96s43 96 96 96S352 149 352 96z" fill="#2A7AE4"/>
+                        </svg>
+                        Leitura
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="formacao">
+            <h2 class="formacao__titulo"><a name="formacao"></a>Formação Acadêmica</h2>
+            <div class="formacao__area">
+                <ul class="formacao__lista">
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/logo1.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Ensino Médio</h3>
+                            <h4 class="formacao__ano">1995 - ETE Mascarenhas de Moraes</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/iachs.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Técnico em Enfermagem</h3>
+                            <h4 class="formacao__ano">2007 - IAHCS</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Impulso FullStack Developer</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>        
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">LocalizaLabs React Developer</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">HTML Web Developer</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">                            
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Avanade Angular Developer</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">SPTech Desenvolvimento Front-end</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Become Remote</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">SPTech Desenvolvimento Fullstack</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">MRV Front End SPA Developer</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Eduzz Fullstack Developer</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Eduzz Fullstack Developer</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Eduzz Fullstack Developer</h3>
+                            <h4 class="formacao__ano">2021 - DIO</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/alura.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Formação Empreendedorismo ONE</h3>
+                            <h4 class="formacao__ano">2021 - Alura</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/alura.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Formação Business Agility - ONE</h3>
+                            <h4 class="formacao__ano">2021 - Alura</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/alura.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Formação Iniciante em Programação - ONE</h3>
+                            <h4 class="formacao__ano">2022 - Alura</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/alura.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Formação Desenvolvimento Pessoal - ONE</h3>
+                            <h4 class="formacao__ano">2022 - Alura</h4>
+                        </div>
+                    </li>
+                    <li class="formacao__item">
+                        <div class="formacao__img">
+                            <img class="formacao__logo" src="assets/img/dio.png">
+                        </div>
+                        <div class="formacao__info">
+                            <h3 class="formacao__curso">Inter Frontend Developer</h3>
+                            <h4 class="formacao__ano">2022 - DIO</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="experiencia">
+            <h2 class="experiencia__titulo"><a name="projetos"></a>Experiência profissional</h2>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--conversor"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Conversor de Moedas</h3>
+                        <h4 class="experiencia__descricao">Projeto Pessoal - VueJS</h4>    
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/conversor"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://coin-conversor.netlify.app/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--financeiro"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Sistema de Controle de Finanças</h3>
+                        <h4 class="experiencia__descricao">Projeto Pessoal - ReactJS</h4>
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/expense-tracker-react"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://expense-tracker-finances.netlify.app/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--slider"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Slide Fotos</h3>
+                        <h4 class="experiencia__descricao">Projeto Pessoal - JS</h4>
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/slider-js"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://slider-in-js.netlify.app/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--urna"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Urna Eletrônica</h3>
+                        <h4 class="experiencia__descricao">Projeto Pessoal - JS</h4>
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/urna-js"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://urna-js.netlify.app/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--multiform"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Formulário Multi-etapas</h3>
+                        <h4 class="experiencia__descricao">Projeto Pessoal - ReactJS</h4>
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/multiform-react"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://multiform-react.netlify.app/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--photo-gallery"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Galeria de Fotos</h3>
+                        <h4 class="experiencia__descricao">Projeto Pessoal - ReactJS</h4>
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/photo-gallery-react"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://photo-gallery-react.netlify.app/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--todo-list"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Lista de Tarefas</h3>
+                        <h4 class="experiencia__descricao">Projeto Pessoal - ReactJS</h4>
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/todo-list-react"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://maufteixeira-todo-list.netlify.app/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--covid"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Painel de Dados COVID-19</h3>
+                        <h4 class="experiencia__descricao">Projeto Curso - ReactJS</h4>
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/covid19-dio"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://api-covid19dio.netlify.app/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--forca"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Jogo da Forca</h3>
+                        <h4 class="experiencia__descricao">Alura Oracle ONE Challenge</h4>
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/jogo-forca"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://maufteixeira.github.io/jogo-forca/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__img">
+                <div class="experiencia__telas">
+                    <div class="experiencia__tela--encrypter"></div>
+                </div>
+                <div class="experiencia__info">
+                    <div class="experiencia__texto">
+                        <h3 class="experiencia__nome">Decodificador de Texto</h3>
+                        <h4 class="experiencia__descricao">Alura Oracle ONE Challenge</h4>
+                    </div>
+                    <div class="experiencia__botoes">
+                        <a class="experiencia__link" target="__blank" href="https://github.com/maufteixeira/encrypter"><input class="experiencia__repo" type="button" value="Repositorio"></a>
+                        <a class="experiencia__link" target="__blank" href="https://maufteixeira.github.io/encrypter/"> <input class="experiencia__demo" type="button" value="Ver demo"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="formulario">
+            <aside class="formulario__painel">
+                <img class="formulario__imagem" src="assets/img/fone.png" alt="Imagem de um telefone">
+            </aside>
+            <form class="form" action="https://formspree.io/f/xoqrnnnj" method="post" target="_blank">
+                <h2 class="formulario__titulo">Contato</h2>
+                <p class="formulario__texto">Contato
+                    Quer entrar em contato comigo?
+                    Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+                </p>
+                <div class="label-float">
+                    <input class="formulario__nome" type="text" name="nome" placeholder=" " required data-tipo="nome"/>
+                    <label>Nome</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="label-float"> 
+                    <input class="formulario__email" type="email" name="email" placeholder=" " required data-tipo="email"/>
+                    <label>E-mail</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="label-float"> 
+                    <input class="formulario__assunto" type="text" name="assunto" placeholder=" " required />
+                    <label>Assunto</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="label-float"> 
+                    <textarea class="formulario__mensagem" name="mensagem" placeholder=" " ></textarea>
+                    <label>Mensagem</label>
+                </div>
+                <input class="formulario__botao" type="submit" value="Enviar mensagem">
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">
+            Desenvolvido por Mauricio Teixeira<br>
+            2022
+        </p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>

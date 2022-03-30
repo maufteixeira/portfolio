@@ -1,0 +1,126 @@
+.hobbies {
+    background-color: var(--gelo);
+    color: var(--cinza-escuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+.hobbies__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.hobbies__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.hobbies__item {
+    align-items: flex-start;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 7.375rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 2%;
+    padding-left: 1rem;
+    width: 8.75rem;
+}
+
+.hobbies__area {
+    display: flex;
+    width: 22.5rem;
+}
+
+.svg {
+    fill: var(--azul-medio);
+    height: 2rem;
+    width: 2rem;
+}
+
+.svg:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies {
+        width: 48rem;
+        margin-right: 2rem;
+    }
+    
+    .hobbies__titulo {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    
+    .hobbies__area {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .hobbies__lista {
+        align-items: flex-start;
+        height: 19.5rem;
+        justify-content: flex-start;
+        padding-left: 1.5rem;
+        width: 768px;
+    }
+    
+    .hobbies__item {
+        align-items: flex-start;
+        align-self: flex-start;
+        height: 7.375rem;
+        justify-content:flex-end;
+        line-height: 3rem;
+        margin: 0.5rem;
+        width: 13rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .hobbies {
+        height: 20rem;
+        width: 100%;
+    }
+
+    .hobbies__titulo {
+        font-size: 2rem;
+        padding-top: 5rem;
+    }
+    
+    .hobbies__area {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .hobbies__lista {
+        height: 15rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        width: 100%;
+    }
+
+    .hobbies__item {
+        height: 10rem;
+        width: 11rem;
+    }
+}
