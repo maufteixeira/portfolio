@@ -145,7 +145,7 @@
     justify-content: flex-start;
     padding-bottom: 3rem;
     padding-left: 2.5rem;
-    padding-top: 0.5rem;
+    margin-top: 0.5rem;
     width: 100%;
 }
 
@@ -161,7 +161,6 @@
     font-weight: 600;
     height: 2.5rem;
     margin-right: 1rem;
-    padding-top: 0.5rem;
     width: 6rem;
 }
 
@@ -174,7 +173,6 @@
     font-weight: 600;
     height: 2.5rem;
     margin-right: 1rem;
-    padding-top: 0.5rem;
     width: 6rem;
 }
 .experiencia__link {
