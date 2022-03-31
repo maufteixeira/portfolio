@@ -29,6 +29,12 @@
     color: var(--azul-ceu);
 }
 
+.navegacao__link:link,
+    .navegacao__link:visited,
+    .navegacao__link:active {
+        color: var(--cinza-escuro);
+    }
+
 svg:hover path {
     fill: var(--azul-ceu);
     color: var(--azul-ceu);
@@ -56,16 +62,6 @@ svg:hover path {
         font-size: 1rem;
         font-weight: 500;
         padding-right: 1.5rem;
-    }
-
-    .navegacao__link:link,
-    .navegacao__link:visited,
-    .navegacao__link:active {
-        color: var(--cinza-escuro);
-    }
-
-    .navegacao__link:hover {
-        color: var(--azul-ceu);
     }
     
 }
