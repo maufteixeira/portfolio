@@ -134,11 +134,12 @@
     font-size: 0.875rem;
     font-weight: 500;
     height: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     width: 18.5rem;
 }
 
 .experiencia__botoes {
+    align-items: center;
     display: flex;
     flex-direction: row;
     height: 3rem;

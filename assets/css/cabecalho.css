@@ -26,7 +26,6 @@
     height: 2rem;
     justify-content: space-around;
     margin-left: -0.4rem;
-    padding-right: 0.5rem;
     width: 1rem;
 }
 
@@ -37,7 +36,7 @@ svg:hover path {
 .cabecalho__titulo {
     font-weight: 700;
     font-size: 1rem;
-    margin-left: -2.5rem;
+    margin-left: -0.5rem;
     width: 10rem;
 }
 
